@@ -19,7 +19,7 @@ export function useGame() {
         setScore((score) => score + 60)
         sound.play()
       } else {
-        setScore((score) => score - 10)
+        setScore((score) => (score === 0 ? score : score - 10))
       }
 
       setTimeout(() => {
