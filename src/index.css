@@ -9,13 +9,27 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #111111;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.gradient {
+  background: radial-gradient(circle at 12% 20%, #ea5a0c69 0%, #15151500 20.5%),
+    radial-gradient(circle at 40% 85%, #ea5a0c69 0%, #15151500 20.5%),
+    radial-gradient(circle at 85% 45%, #ea5a0c69 0%, #15151500 15%);
+}
+
 .front,
 .back {
   backface-visibility: hidden;
@@ -30,8 +44,3 @@
 .flipped {
   transform: rotateY(180deg);
 }
-
-/* .board {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-} */
