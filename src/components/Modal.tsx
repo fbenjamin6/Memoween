@@ -1,5 +1,4 @@
 import { CloseIcon, ResetIcon } from './Icons'
-import confetti from 'canvas-confetti'
 import { useConfetti } from '../hooks/useConfetti'
 
 type ModalProps = {

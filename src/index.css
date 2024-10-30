@@ -6,6 +6,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  text-align: center;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -16,18 +17,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 #root {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: (min-content, 1fr);
 }
 
 .gradient {
-  background: radial-gradient(circle at 12% 20%, #ea5a0c69 0%, #15151500 20.5%),
-    radial-gradient(circle at 40% 85%, #ea5a0c69 0%, #15151500 20.5%),
-    radial-gradient(circle at 85% 45%, #ea5a0c69 0%, #15151500 15%);
+  background: radial-gradient(circle at 88% 25%, #ea5a0c69 0%, #15151500 23%),
+    radial-gradient(circle at 48% 85%, #ea5a0c69 0%, #15151500 17%),
+    radial-gradient(circle at 15% 43%, #ea5a0c69 0%, #15151500 20%);
 }
 
 .front,

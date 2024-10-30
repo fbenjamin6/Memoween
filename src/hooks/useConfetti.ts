@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import confetti from 'canvas-confetti'
-export function useConfetti(won) {
+export function useConfetti(won: boolean) {
   useEffect(() => {
     if (won) {
       const duration = 4 * 1000

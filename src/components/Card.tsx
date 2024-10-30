@@ -10,7 +10,7 @@ export function Card({
   return (
     <li
       onClick={onClick}
-      className={`card relative aspect-square w-full h-full transition-transform duration-500 rounded-xl  border-[5px] border-white bg-white cursor-pointer  ${
+      className={`card relative aspect-square w-full h-full transition-transform duration-500 rounded-xl border-[3px]  sm:border-[5px] border-white bg-white cursor-pointer  ${
         flipped ? 'flipped' : ''
       }`}
     >

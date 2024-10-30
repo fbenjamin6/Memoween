@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
-        board: 'repeat(5, minmax(120px, 180px))',
+        board: 'repeat(5, minmax(110px, 180px))',
+        mobileBoard: 'repeat(4, minmax(60px, 140px))',
       },
     },
   },
